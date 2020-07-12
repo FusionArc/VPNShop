@@ -1,5 +1,5 @@
-# My bento-starter project
+# VPNShop
 
-## Documentation
+## Documentation available to build a web app using a similar high performance template:
 
-Documentation available :point_right: [here](https://bento-starter.netlify.com/)
+### [repo] https://github.com/kefranabg/bento-starter.git
