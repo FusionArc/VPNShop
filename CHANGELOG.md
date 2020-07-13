@@ -1,14 +1,15 @@
 # Changelog
 
-<a name="next"></a>
+## name="next"
+
 ## next
 
 ### Miscellaneous
 
-- 📝 Update README description format [[73423bc](https://github.com/kefranabg/bento-starter/commit/73423bc3130fe6393b0522af9f70af0e828bd11a)]
+📝 Update README description format [[73423bc](https://github.com/kefranabg/bento-starter/commit/73423bc3130fe6393b0522af9f70af0e828bd11a)]
 
+name="1.0.0"
 
-<a name="1.0.0"></a>
 ## 1.0.0 (2019-06-06)
 
 ### Added
@@ -49,7 +50,7 @@
 - 🐛 Fix prettier commands execution for windows ([#156](https://github.com/kefranabg/bento-starter/issues/156)) [[909799a](https://github.com/kefranabg/bento-starter/commit/909799aa4d7d770995e318f3997a624799c17fdc)]
 - ✏️ Fix contributing typo ([#135](https://github.com/kefranabg/bento-starter/issues/135)) [[0efdc24](https://github.com/kefranabg/bento-starter/commit/0efdc24a69b4c8f0973ab91ebcc89d0fe588f39b)]
 
-### Miscellaneous
+########### Miscellaneous
 
 - 📝 Add setup in README ([#123](https://github.com/kefranabg/bento-starter/issues/123)) [[cb0486c](https://github.com/kefranabg/bento-starter/commit/cb0486c24688bdc9ae8a820a6df9ae15711abd6e)]
 - 📝 Add code owner and code of conduct ([#130](https://github.com/kefranabg/bento-starter/issues/130)) [[44fa7d0](https://github.com/kefranabg/bento-starter/commit/44fa7d000e657e1c4a50b6b93220ffea2105d1de)]
@@ -57,12 +58,10 @@
 - 📝 Add bento-starter demo Play Store link in README ([#167](https://github.com/kefranabg/bento-starter/issues/167)) [[17b0ac6](https://github.com/kefranabg/bento-starter/commit/17b0ac6dd26cd489bdc81bd4d0c72e69bae5fc11)]
 - 📝 Align title and images in README ([#121](https://github.com/kefranabg/bento-starter/issues/121)) [[e084399](https://github.com/kefranabg/bento-starter/commit/e084399b514ffab6328223fead89a1da5a59df3c)]
 
+name="0.1.0"
 
-<a name="0.1.0"></a>
 ## 0.1.0 (2019-04-22)
 
-### Added
+#################### Added
 
 - 🎉 First release [[9129ff7](https://github.com/kefranabg/bento-starter/commit/9129ff7dcb4378db4d38dc6e2649394e2da91f63)]
-
-
