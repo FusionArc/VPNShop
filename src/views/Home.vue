@@ -1,15 +1,7 @@
 <template>
   <div class="page-wrapper">
     <h1 class="home-page-title">{{ appTitle }}</h1>
-    <img alt="logo-bento" class="logo" src="@/assets/img/bento-starter.svg" />
-
-    <a
-      rel="noopener"
-      class="documentation-link"
-      target="_blank"
-      href="https://bento-starter.netlify.com/"
-      >Documentation →</a
-    >
+    <img alt="Logo-VPNS.me" class="logo" src="@/src/assets/img/phoenix.webp" />
   </div>
 </template>
 
@@ -25,7 +17,7 @@ export default {
       meta: [
         {
           name: 'description',
-          content: `${this.appTitle} home page`,
+          content: `Welcome to ${this.appTitle},\n Delivering Next Generation Street Gadgets, Tech & Smart Commuters.\n Directly from production warehouses to your door.`,
           id: 'desc'
         }
       ]
