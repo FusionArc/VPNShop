@@ -1,132 +1,147 @@
 {
-  "name": "vpn-shop",
-  "version": "1.0.0",
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "test:e2e": "vue-cli-service test:e2e",
-    "test:e2e:headless": "vue-cli-service test:e2e --headless",
-    "test:unit": "vue-cli-service test:unit",
-    "prettier:format-all": "prettier --write \"**/*.{vue,scss,sass,js,json}\"",
-    "prettier:check": "prettier \"**/*.{vue,scss,sass,js,json}\" --list-different",
-    "firebase:deploy:ci": "firebase deploy --non-interactive --token $FIREBASE_TOKEN",
-    "bundlesize": "bundlesize"
-  },
-  "engines": {
-    "npm": ">=5.5.0",
-    "node": ">=9.3.0"
-  },
-  "dependencies": {
-    "core-js": "^3.1.3",
-    "firebase": "^6.0.4",
-    "is_js": "^0.9.0",
-    "lodash": "^4.17.15",
-    "pwacompat": "^2.0.9",
-    "register-service-worker": "^1.6.2",
-    "vue": "^2.6.10",
-    "vue-head": "^2.1.1",
-    "vue-router": "^3.0.6",
-    "vuex": "^3.1.1"
-  },
-  "devDependencies": {
-    "@types/lodash": "^4.14.132",
-    "@vue/cli-plugin-babel": "^4.0.5",
-    "@vue/cli-plugin-e2e-cypress": "4.1.2",
-    "@vue/cli-plugin-eslint": "^4.0.5",
-    "@vue/cli-plugin-pwa": "^3.8.0",
-    "@vue/cli-plugin-unit-jest": "^4.0.5",
-    "@vue/cli-service": "^4.0.5",
-    "@vue/eslint-config-prettier": "^5.0.0",
-    "@vue/test-utils": "^1.0.0-beta.29",
-    "babel-core": "7.0.0-bridge.0",
-    "babel-eslint": "^10.0.1",
-    "babel-jest": "^24.9.0",
-    "babel-plugin-lodash": "^3.3.4",
-    "bundlesize": "github:kefranabg/bundlesize",
-    "eslint": "^6.6.0",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-config-google": "^0.14.0",
-    "eslint-plugin-import": "^2.17.3",
-    "eslint-plugin-prettier": "^3.1.1",
-    "eslint-plugin-vue": "^5.2.3",
-    "firebase-tools": "^7.6.2",
-    "node-sass": "^4.12.0",
-    "prerender-spa-plugin": "^3.4.0",
-    "sass-loader": "^8.0.0",
-    "vue-template-compiler": "^2.6.10",
-    "webpack-bundle-analyzer": "^3.3.2",
-    "webpack-merge": "^4.2.1"
-  },
-  "bundlesize": [
-    {
-      "path": "./dist/js/chunk-vendors*.js",
-      "maxSize": "125 kB"
+    "name": "vpn-shop",
+    "version": "1.0.0",
+    "description": "A cloud native, niche-driven e-commerce web application, dedicated to best practices, high performance and reliability",
+    "repository": "https://github.com/FusionArc/VPNShop.git, https://github.com/kefranabg/bento-starter",
+    "Author": "Dave Cheez, `Bento Starter Team`",
+    "license": "MIT",
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "lint": "vue-cli-service lint",
+        "bundlesize": "bundlesize",
+        "prettier:check": "prettier \"**/*.{vue,scss,sass,js,json}\" --list-different",
+        "prettier:format-all": "prettier --write \"**/*.{vue,scss,sass,js, json\"",
+        "test:e2e": "vue-cli-service test:e2e",
+        "test:e2e:headless": "vue-cli-service test:e2e --headless",
+        "test:unit": "vue-cli-service test:unit",
+        "build": "vue-cli-service build",
+        "firebase:deploy:ci": "firebase deploy --non-interactive --token $FIREBASE_TOKEN"
     },
-    {
-      "path": "./dist/js/chunk-firestore*.js",
-      "maxSize": "95 kB"
+    "engines": {
+        "npm": ">6.5.0",
+        "node": ">10.16.0"
     },
-    {
-      "path": "./dist/js/app*.js",
-      "maxSize": "15 kB"
+    "dependencies": {
+        "core-js": "^3.6.5",
+        "eslint-plugin-import": "^2.22.0",
+        "firebase": "^7.16.0",
+        "firebase-ci": "^0.13.0",
+        "google-auth-library": "^6.0.4",
+        "is_js": "^0.9.0",
+        "lodash": "^4.17.19",
+        "pwacompat": "^2.0.15",
+        "register-service-worker": "^1.7.1",
+        "vue": "^2.6.11",
+        "vue-head": "^2.2.0",
+        "vue-router": "^3.3.4",
+        "vuex": "^3.5.1"
     },
-    {
-      "path": "./dist/js/client-chunk-*.js",
-      "maxSize": "6 kB"
-    }
-  ],
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
+    "devDependencies": {
+        "@babel/core": "7.10.4",
+        "@types/lodash": "^4.14.157",
+        "@vue/cli-plugin-babel": "^4.4.6",
+        "@vue/cli-plugin-e2e-cypress": "4.4.6",
+        "@vue/cli-plugin-eslint": "^4.4.6",
+        "@vue/cli-plugin-pwa": "^4.4.6",
+        "@vue/cli-plugin-unit-jest": "^4.4.6",
+        "@vue/cli-service": "^4.4.6",
+        "@vue/eslint-config-prettier": "^6.0.0",
+        "@vue/test-utils": "^1.0.3",
+        "babel-eslint": "^10.1.0",
+        "babel-jest": "^26.1.0",
+        "babel-plugin-lodash": "^3.3.4",
+        "bundlesize": "github:kefranabg/bundlesize",
+        "eslint": "^7.4.0",
+        "eslint-config-google": "^0.14.0",
+        "eslint-plugin-import": "^2.22.0",
+        "eslint-plugin-prettier": "^3.1.4",
+        "eslint-plugin-vue": "^6.2.2",
+        "firebase-tools": "^8.5.0",
+        "node-sass": "^4.14.1",
+        "prerender-spa-plugin": "^3.4.0",
+        "sass-loader": "^9.0.2",
+        "vue-template-compiler": "^2.6.11",
+        "webpack-bundle-analyzer": "^3.8.0",
+        "webpack-merge": "^4.2.2"
     },
-    "extends": [
-      "plugin:vue/essential",
-      "@vue/prettier"
+    "bundlesize": [
+        {
+            "path": "./dist/js/chunk-vendors*.js",
+            "maxSize": "70 kB"
+        },
+        {
+            "path": "./dist/js/chunk-vendors*.js",
+            "maxSize": "70 kB"
+        },
+        {
+            "path": "./dist/js/chunk-firestore*.js",
+            "maxSize": "70 kB"
+        },
+        {
+            "path": "./dist/js/app*.js",
+            "maxSize": "10 kB"
+        },
+        {
+            "path": "./dist/js/client-chunk-*.js",
+            "maxSize": "10 kB"
+        },
+        {
+            "path": "./dist/js/app*.js",
+            "maxSize": "10 kB"
+        },
+        {
+            "path": "./dist/js/client-chunk-*.js",
+            "maxSize": "10 kB"
+        }
     ],
-    "rules": {},
-    "parserOptions": {
-      "parser": "babel-eslint"
-    }
-  },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
-    }
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ],
-  "jest": {
-    "moduleFileExtensions": [
-      "js",
-      "jsx",
-      "json",
-      "vue"
-    ],
-    "transform": {
-      "^.+\\.vue$": "vue-jest",
-      ".+\\.(css|styl|less|sass|scss|svg|png|jpg|ttf|woff|woff2)$": "jest-transform-stub",
-      "^.+\\.jsx?$": "babel-jest"
+    "eslintConfig": {
+        "root": true,
+        "env": {
+            "node": true
+        },
+        "extends": [
+            "plugin:vue/essential",
+            "@vue/prettier"
+        ],
+        "rules": {},
+        "parserOptions": {
+            "parser": "babel-eslint"
+        }
     },
-    "moduleNameMapper": {
-      "^@/(.*)$": "<rootDir>/src/$1"
+    "postcss": {
+        "plugins": {
+            "autoprefixer": {}
+        }
     },
-    "snapshotSerializers": [
-      "jest-serializer-vue"
+    "browserslist": [
+        "> 1%"
     ],
-    "testMatch": [
-      "**/tests/unit/**/*.spec.(js|jsx|ts|tsx)|**/__tests__/*.(js|jsx|ts|tsx)"
-    ],
-    "testURL": "http://localhost/",
-    "setupFilesAfterEnv": [
-      "<rootDir>/tests/unit/setup.js"
-    ]
-  },
-  "readme": "ERROR: No README data found!",
-  "_id": "vpn-shop@1.0.0"
+    "jest": {
+        "moduleFileExtensions": [
+            "js",
+            "jsx",
+            "json",
+            "vue"
+        ],
+        "transform": {
+            "^.+\\.vue$": "vue-jest",
+            ".+\\.(css|styl|less|sass|scss|svg|png|jpg|ttf|woff|woff2)$": "jest-transform-stub",
+            "^.+\\.jsx?$": "babel-jest"
+        },
+        "moduleNameMapper": {
+            "^@/(.*)$": "<rootDir>/src/$1"
+        },
+        "snapshotSerializers": [
+            "jest-serializer-vue"
+        ],
+        "testMatch": [
+            "**/tests/unit/**/*.spec.(js|jsx|ts|tsx)|**/__tests__/*.(js|jsx|ts|tsx)"
+        ],
+        "testURL": "http://localhost/",
+        "setupFilesAfterEnv": [
+            "<rootDir>/tests/unit/setup.js"
+        ]
+    },
+    "readme": "ERROR: No README data found!",
+    "_id": "vpn-shop@1.0.0"
 }
