@@ -1,14 +1,14 @@
 import firebase from 'firebase/app'
 import 'firebase/auth'
 
-// The configuration below is not sensitive data. You can serenely add your config here
-const config = {
-  apiKey: 'AIzaSyCe6CSzOUs6_Ij_VHa6hancdEi6CNBtw7c',
-  authDomain: 'bento-starter.firebaseapp.com',
-  databaseURL: 'https://bento-starter.firebaseio.com',
-  projectId: 'bento-starter',
-  storageBucket: 'bento-starter.appspot.com',
-  messagingSenderId: '458464977217'
-}
-
+const firebaseConfig = {
+    apiKey: "AIzaSyC4MsQjnayWIj--P_ptv5g6jaY5j7V_BIg",
+    authDomain: "vpns-dev-me.firebaseapp.com",
+    databaseURL: "https://vpns-dev-me.firebaseio.com",
+    projectId: "vpns-dev-me",
+    storageBucket: "vpns-dev-me.appspot.com",
+    messagingSenderId: "248759499459",
+    appId: "1:248759499459:web:6b123e216e3f09c3884076",
+    measurementId: "G-GQZGFTC1WB"
+};
 firebase.initializeApp(config)
