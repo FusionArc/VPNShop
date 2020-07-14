@@ -1,7 +1,7 @@
 <template>
   <header class="navbar" :class="{ offline: !networkOnLine }">
     <router-link to="/home">
-      <img alt="logo-bento" class="logo" src="@/assets/img/favicon-32x32.png" />
+      <img alt="VPNShop-logo" class="logo" src="" />
       <span class="site-name title-desktop">{{ appTitle }}</span>
       <span class="site-name title-mobile">{{ appShortTitle }}</span>
     </router-link>

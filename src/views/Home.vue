@@ -1,7 +1,7 @@
 <template>
   <div class="page-wrapper">
     <h1 class="home-page-title">{{ appTitle }}</h1>
-    <img alt="Logo-VPNS.me" class="logo" src="@/src/assets/img/favicon-32x32.png" />
+    <img alt="VPNShop logo" class="logo" src="" />
   </div>
 </template>
 
