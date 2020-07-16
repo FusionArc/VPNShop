@@ -7,15 +7,17 @@
     "license": "MIT",
     "scripts": {
         "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
         "lint": "vue-cli-service lint",
-        "bundlesize": "bundlesize",
-        "prettier:check": "prettier \"**/*.{vue,scss,sass,js,json}\" --list-different",
-        "prettier:format-all": "prettier --write \"**/*.{vue,scss,sass,js, json\"",
         "test:e2e": "vue-cli-service test:e2e",
         "test:e2e:headless": "vue-cli-service test:e2e --headless",
         "test:unit": "vue-cli-service test:unit",
-        "build": "vue-cli-service build",
-        "firebase:deploy:ci": "firebase deploy --non-interactive --token $FIREBASE_TOKEN"
+        "prettier:format-all": "prettier --write \"**/*.{vue,scss,sass,js,json}\"",
+        "prettier:check": "prettier \"**/*.{vue,scss,sass,js,json}\" --list-different",
+        "firebase:deploy:ci": "firebase deploy --non-interactive --token $FIREBASE_TOKEN",
+        "bundlesize": "bundlesize",
+        "presetup": "npm install",
+        "setup": "node ./internals/setup.js"
     },
     "engines": {
         "npm": ">6.5.0",
@@ -56,7 +58,7 @@
         "eslint-plugin-import": "^2.22.0",
         "eslint-plugin-prettier": "^3.1.4",
         "eslint-plugin-vue": "^6.2.2",
-        "firebase-tools": "^8.5.0",
+        "firebase-tools": "^8.6.0",
         "node-sass": "^4.14.1",
         "prerender-spa-plugin": "^3.4.0",
         "sass-loader": "^9.0.2",
