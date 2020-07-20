@@ -1,6 +1,6 @@
 import firebase from 'firebase/app'
 import 'firebase/auth'
-
+// The configuration below is not sensitive data.
 const firebaseConfig = {
     apiKey: "hyu",
     authDomain: "vpns-dev-me.firebaseapp.com",
