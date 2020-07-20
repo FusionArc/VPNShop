@@ -2,7 +2,7 @@ import firebase from 'firebase/app'
 import 'firebase/auth'
 
 const firebaseConfig = {
-    apiKey: "AIzaSyC4MsQjnayWIj--P_ptv5g6jaY5j7V_BIg",
+    apiKey: "hyu",
     authDomain: "vpns-dev-me.firebaseapp.com",
     databaseURL: "https://vpns-dev-me.firebaseio.com",
     projectId: "vpns-dev-me",
